@@ -1,0 +1,14 @@
+.Container {
+    display: flex;
+    /*
+    position: relative;
+    justify-content: center;
+    */
+}
+
+.Container hr {
+    /*
+    position: absolute;
+    left: 0;
+    */
+}

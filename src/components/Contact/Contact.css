@@ -1,0 +1,8 @@
+.Contact {
+    background: grey;
+    display: flex;
+    height: 950px;
+    padding-top: 80px;
+    flex-direction: column;
+    position: relative; /*parent is set as relative */
+}

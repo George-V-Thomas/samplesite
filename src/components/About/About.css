@@ -1,0 +1,27 @@
+.About {
+    background: grey;
+    display: flex;
+    height: 950px;
+    padding-top: 80px;
+    flex-direction: column;
+    position: relative; /*parent is set as relative */
+}
+
+p {
+    position: absolute;
+    color: white;
+    top: 20%;
+    width: 40%;
+    left: 8%;
+    text-align: justify;
+    
+}
+
+/*
+
+.Maldivesimg {
+    left: 15%; 
+    bottom: 20%;
+    width: 100%;
+}
+*/

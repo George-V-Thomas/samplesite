@@ -1,15 +1,24 @@
 import './Home.css'
-import maldives from '../../img/maldives.jpg'
+import PageHeader from '../../components/PageHeader/PageHeader'
+import pinkflower from '../../img/pinkflower.jpg'
 
 const Home = () => {
     return (
         <div className="Home"> 
-            <div className="Container">
-                <h1>Welcome to Encourageat site!</h1>
-            </div>
-            <div className="Maldivesimg">
-                <img src={maldives} alt="maldives image"></img>
-            </div>
+        <div>
+            <PageHeader title={'Welcome..'}/>
+        </div>
+        <div className="Homedetails">
+        <p>
+            Free online training on IAM
+            <br/>
+            <br/>
+            Contact Email: 
+            <br/>
+            encourageat@gmail.com
+        </p>
+        <img src={pinkflower} alt="pink flower image"></img>
+        </div>
         </div>
       );    
 }

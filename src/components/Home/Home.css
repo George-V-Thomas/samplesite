@@ -7,26 +7,45 @@
     position: relative; /*parent is set as relative */
 }
 
-h1 {
-    margin: 0;
-    padding-top: 40px;
+.Hometdetails {
+    flex-direction: row;
+}
+img {
+    position: absolute;
+    left: 53%;
+    width: 400px;
+    max-height: 250px;
 }
 
-.Maldivesimg {
-    left: 15%; /* for centralising, since it got left aligned */
-    bottom: 20%;
-    width: 100%;
-}
-/*
-.Seashoreimg {
-    left: 15%; 
-    bottom: 20%;
-    width: 100%;
-}
-*/
-.Container {
-    color: white;
+p {
     position: absolute;
+    color: white;
+    width: 35%;
     left: 8%;
-    top: 10%;
+    text-align: justify;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Home .Homedetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        visibility: hidden;
+        
+    }
+    
+    p {
+        position: absolute;
+        left: 5%;
+        color: white;
+        width: 90%;
+        text-align: justify;
+    }
+    
 }

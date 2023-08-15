@@ -25,6 +25,32 @@ p {
     
 }
 
+
+
+@media only screen and (max-width: 850px) {
+
+    .About .Aboutdetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        visibility: hidden;
+        
+    }
+    
+    p {
+        position: absolute;
+        left: 5%;
+        color: white;
+        width: 90%;
+        text-align: justify;
+    }
+    
+}
+
 @media only screen and (max-width: 600px) {
 
     .About .Aboutdetails {

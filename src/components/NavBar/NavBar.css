@@ -28,3 +28,51 @@ a {
 .NavBar a:hover {
     border-bottom: 5px Solid grey; /*To show border on mouse hover at menu */
 }
+
+.MobileNavigation {
+    display: none;
+}
+
+@media only screen and (max-width: 909px) {
+
+    .MobileNavigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .Navigation {
+        display: none;
+    }
+    .Hamburger {
+        position: absolute;
+        right: 1%;
+        cursor: pointer;
+        pointer-events: auto;
+    }
+
+    .NavBar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60%;
+        background: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .NavBar nav ul li {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .NavBar a:hover {
+        border-bottom: none; /*To show border on mouse hover at menu */
+        color: blue;
+    }
+
+}

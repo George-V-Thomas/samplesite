@@ -1,10 +1,13 @@
 import './NavBar.css'
-import NavLinks from './NavLinks'
+import Navigation from'./Navigation'
+import MobileNavigation from './MobileNavigation'
+
 
 const NavBar = () => {
     return (
         <div className="NavBar"> 
-            <NavLinks/>
+            <Navigation/>
+            <MobileNavigation/>
         </div>
       );    
 }

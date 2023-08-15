@@ -1,8 +1,8 @@
 import './NavBar.css'
 const NavLinks = () => {
     return (
-        <nav>  
-            <ul>
+         
+        <ul>
             <li>
                 <a href="/">Home</a>
             </li>
@@ -12,8 +12,8 @@ const NavLinks = () => {
             <li>
                 <a href="/contact">Contact</a>
             </li>
-            </ul>
-        </nav>
+        </ul>
+        
       );    
 }
 export default NavLinks;
